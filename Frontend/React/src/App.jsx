@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import Home from "./components/layout/Home";
+
 
 function App() {
   return (
-    <div>
-      <h1>Hello, Vite!</h1>
-      <p>This is a simple component rendered in App.js using Vite.</p>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
