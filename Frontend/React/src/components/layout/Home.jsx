@@ -75,11 +75,12 @@ export default function Home() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Request a Quote</Button>
-              <Button variant="outlined">Secondary action</Button>
+              <Button variant="contained">Request Quote</Button>
+              <Button variant="outlined">Explore Packages</Button>
             </Stack>
           </Container>
         </Box>
+
         <Container sx={{ py: 8 }} maxWidth="xl">
           {/* End hero unit */}
           <Grid container spacing={6}>
@@ -115,8 +116,8 @@ export default function Home() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small">View</Button>
-                    <Button size="small">Edit</Button>
+                    <Button size="small">View Courses</Button>
+                    <Button size="small"></Button>
                   </CardActions>
                 </Card>
               </Grid>
